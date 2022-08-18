@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sidebar{
+    width: 40%;
+    height: 100vh;
+    float: left;
+}
+
+.sidebar h2{
+    position: absolute;
+    left: 275px;
+    top: 405px;
+    color: white;
+}
+
+.s-image{
+    width: 35%;
+    height: 80vh;
+    position: absolute;
+    top: 140px;
+    left: 75px;
+    text-align: center;
+}
+
+
+.main-body{
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.main-body h1{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 120px;
+}
+
+.main-body h2{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-1{
+    background-color: red;
+}
+
+.btn-2{
+    background-color: blue;
+}
+
+.btn-3{
+    background-color: pink;
+}
+
+.btn-4{
+    background-color: purple;
+}
+
+.feature{
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color:darkgray;
+    cursor: pointer;
+}
+
+.f1{
+    margin-left: 10px;
+    width: 130px;
+}
+
+.buy{
+    display: block;
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    border:none;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
